@@ -15,4 +15,9 @@ Leer las pruebas unitarias.
 - Prueba de concurencia con JMeter, donde vamos a colocar 100 hilos de ejeucución para observar los comportamientos de cada servicio
 
 
-Grupo 7
+
+ # Integrantes  Grupo 7
+
+	Andres Felipe Lozada
+	Aura Russil
+	Duvan Arley Botero
