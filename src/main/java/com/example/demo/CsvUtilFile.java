@@ -14,7 +14,9 @@ public class CsvUtilFile {
 
     public static List<Player> getPlayers(){
         var uri =  CsvUtilFile.class.getClassLoader().getResource("data.csv");
+
         List<Player> list = new ArrayList<>();
+        
         try (CSVReader reader = new CSVReader(new FileReader(uri.getFile()))) {
             List<String[]> registers = reader.readAll();
             registers.forEach(strings -> list.add(new Player(
